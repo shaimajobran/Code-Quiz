@@ -51,7 +51,7 @@ var questions = [{
 
 ]
 
-//intro.style.display = "block";
+//intro
 quiz.style.display = "none";
 finalScore.style.display = "none";
 
