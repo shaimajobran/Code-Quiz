@@ -133,47 +133,11 @@ function resultRender() {
     finalAnswer.textContent = "Your final score is " + timeLeft + ".";
   }
 };
-
-// Score and Initials 
 userInformation.addEventListener("click", function () {
-  var contactInfo = document.getElementById("contactInfo").value;
-
-  localStorage.setItem("contactInfo", JSON.stringify(contactInfo));
-  localStorage.setItem("timeLeft", JSON.stringify(timeLeft));
-
-  loadScores();
-});
-
-//???
-var clearBtn = document.getElementById("clear");
-clearBtn.addEventListener("click", function() {
-    localStorage.clear();
-})
-
-/* finalScore = {
-  contactInfo:"shaimaj",
-  timeleft: "30"
-}*/
-
-var finalScore = [];
-
-
-//show Scores 
-var showScores = function() {
-  var finalScore = localStorage.getItem("contactInfo, timeLeft");
+    var contactInfo = document.getElementById("contactInfo").value;
   
-      if (!finalScore) {
-          return false;
-      }
-    
-       for (var i = 0; i < finalScore.length; i++) {
-        var finalScore = finalScore[i];
-        var listItemEl = document.createElement("li");
-        listItemEl.textContent = finalScore;
-      }    
-    finalScore.push(finalScore)   
-};
-
-
-
-
+    localStorage.setItem("contactInfo", JSON.stringify(contactInfo));
+    localStorage.setItem("timeLeft", JSON.stringify(timeLeft));
+  
+    loadScores();
+  });
