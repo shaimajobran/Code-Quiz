@@ -51,7 +51,7 @@ var questions = [{
 
 ]
 
-intro.style.display = "block";
+//intro.style.display = "block";
 quiz.style.display = "none";
 finalScore.style.display = "none";
 
@@ -144,15 +144,16 @@ userInformation.addEventListener("click", function () {
   loadScores();
 });
 
-
+//???
 var clearBtn = document.getElementById("clear");
 clearBtn.addEventListener("click", function() {
     localStorage.clear();
 })
 
-var finalScore = {
+/* finalScore = {
+  contactInfo:"shaimaj",
   timeleft: "30"
-}
+}*/
 
 var finalScore = [];
 

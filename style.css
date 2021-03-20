@@ -1,7 +1,8 @@
 :root {
-  --primary-color:rgb(108, 128, 155);
-  --secondary-color: rgb(134, 56, 128);
+  --primary-color:rgb(228, 232, 236);
+  --secondary-color: rgb(95, 16, 91);
   --tertiary-color:black;
+  --main-background: rgb(153, 129, 167);
 }
 
 
@@ -17,8 +18,8 @@
   margin-top: 20px;
 }
 
-#main {
-  background-color:rgb(117, 136, 89) ;
+body {
+  background-color:var(--main-background);
 
 }
 #score {
@@ -95,8 +96,8 @@ ul {
   margin-bottom: 10px;
   padding-left: 10px;
   padding-top: 2px;
-  color: white;
-  font-size: small;
+  color: rgb(12, 2, 2);
+  font-size:larger;
   text-align: left;
   outline: none;
 }
@@ -108,7 +109,7 @@ ul {
 #answerOutput {
   padding-top: 20px;
   font-style: italic;
-  color: gray;
+  color: rgb(46, 13, 13);
   font-size: larger;
 }
 
@@ -116,7 +117,7 @@ ul {
 #endMessage {
   margin-top: 15%;
   font-weight: bold;
-  font-size: x-large;
+  font-size:xx-large;
   padding-bottom: 10px;
   margin-left: 40%;
 }
@@ -143,7 +144,7 @@ ul {
   outline: none;
 }
 
-#userInfo:hover {
+#userInformation:hover {
   background-color: var(--secondary-color);
 }
 
@@ -172,6 +173,7 @@ ul {
   width: 70px;
   margin-bottom: -10px;
   margin-top: 10px;
+  
 }
 
 #goBack:hover {

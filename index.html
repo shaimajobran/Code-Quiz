@@ -7,7 +7,7 @@
         <title>Code Quiz Game</title>
     </head>
     <body>
-         <!---Header with timer and high score link-->
+         <!---Header-->
         <header>
             <div id="header">
                 <a id= "score" href="highscore.html"> High Scores</a> 
@@ -16,7 +16,7 @@
         </header>
          <!---Body-->
         <main class="container">
-            
+             <!---Intro-->
             <div class="row" id= "intro">
                 <h2 class="start">Coding Quiz</h2>
                 <p id="rules">this is a quiz game to test your knowledge in coding </p>
@@ -33,17 +33,17 @@
                             <li><button type="button" class="choice option-4 choice-button" id="4" onclick="checkAnswer('4')"></button></li>
                         </ul>
                     </div>
-                 <!---chose Answer Right or Wrong--->
+                 <!---chose Answer--->
                 <div id="answerOutput"> </div>
             </div>
-             <!---Score Info-->
+             <!---Score-->
             <div id="finalScore">
                 <h2 id="endMessage">End Quiz</h2>
                 <div id="finalAnswer"></div>
-                 <!---Form to enter initials-->
+                 <!--- initials-->
                  <form >
                     <div id="initials">
-                        <label for="users" id="name">Enter your Initials:</label>
+                        <label for="users" id="name">Initial Here:</label>
                         <input type="text" id="contactInfo">
                         <input type="button" id= "userInformation" class="submitBtn" onclick="location.href='highscore.html';" value="Submit" />
                     </div>
