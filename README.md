@@ -16,7 +16,7 @@ Then I can save my score an initials in localstorage
 ```
 
 ## screenshot
-![screenshot](Screenshot-2021-03-19-113453.jpg)
+![screenshot](Assets\images\Screenshot-2021-03-20-164127.jpg)
 
 ## link
 [link](https://shaimajobran.github.io/Code-Quiz/)
